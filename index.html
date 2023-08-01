@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>W3.CSS Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                font-family: "Lato", sans-serif
+            }
+
+            .mySlides {
+                display: none
+            }
+        </style>
+    </head>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                    class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">ANA SAYFA</a>
+            <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
+            <a href="#turneler" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TURNELER</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BİZE ULAŞIN</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-padding-large w3-button" title="More">DAHA FAZLASI <i class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="#" class="w3-bar-item w3-button">Kıyafetler</a>
+                    <a href="#" class="w3-bar-item w3-button">Ekstralar</a>
+                    <a href="#" class="w3-bar-item w3-button">Medya</a>
+                </div>
+            </div>
+            <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
+                    class="fa fa-search"></i></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+        <a href="turneler" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TURNELER</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BIZE ULAŞIN</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">KIYAFETLER</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://i.imgur.com/z3TBZV1.jpeg" style="width:75%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Burgazada</h3>
+                <p><b>Cennet Bahçesi'nde çok eğlendik!</b></p>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://i.imgur.com/IztCN5d.jpg" style="width:50%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Eski Arabesk 19luk</h3>
+                <p><b>Bakhalar'ın eski kasetlerine dalış.</b></p>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="https://img.medyatava.com/rcman/Cw1280h720q95gc/storage/files/images/2023/07/15/bakhalar-geni-bozuk-cover-U2xE_cover.jpg" style="width:89%">
+            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+                <h3>Genibozuk</h3>
+                <p><b>Ucuz kralların hikayesi.</b></p>
+            </div>
+        </div>
+
+        <!-- The Band Section -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+            <h2 class="w3-wide">BAKHALAR</h2>
+            <p class="w3-opacity"><i>Geliyoruz</i></p>
+            <p class="w3-justify">Bakkhalar, çocukluklarından beri ortak bir hayali paylaşan iki arkadaşın hikayesiyle başlıyor. Grubun macerası, Ege'nin kırsal bir kasabasında başlar. Grubun oluşumu 2009 yılına dayanıyor. Yıllar içinde gerek mekanlarda gerekse yolculuklarda ve farklı şehir ve yerlerin sokaklarında sürekli olarak doğaçlama müzik yapıyorlar. Rock orijini dışında değişime açık bir ses elde etmeye çalışırlar. Şu anda İstanbul'da yeni şarkılarının kayıt aşamasındalar.</p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p>Serhat</p>
+                    <img src="./assets/Screenshot_2023-07-28_at_17.43.07.png" class="w3-round w3-margin-bottom" alt="Serhat" style="width:60%">
+                </div>
+                <div class="w3-third">
+                    <p>Kemal</p>
+                    <img src="./assets/361637927_18110240698316404_6829200353575417797_n.jpg" class="w3-round w3-margin-bottom" alt="Kemal" style="width:60%">
+                </div>
+                <div class="w3-third">
+                    <p>Hakan</p>
+                    <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="w3-round" alt="Hakan" style="width:60%">
+                </div>
+            </div>
+        </div>
+
+        <!-- The Tour Section -->
+        <div class="w3-black" id="turneler">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">TURNELER</h2>
+                <p class="w3-opacity w3-center"><i>Sizi orada görmek dileğiyle!</i></p><br>
+
+                <ul class="w3-ul w3-border w3-white w3-text-grey">
+                    <li class="w3-padding">Ağustos <span class="w3-badge w3-right w3-margin-right">1</span></li>
+                    <li class="w3-padding">Ekim <span class="w3-badge w3-right w3-margin-right">1</span></li>
+                    <li class="w3-padding">Şubat 2024 <span class="w3-badge w3-right w3-margin-right">1</span></li>
+                </ul>
+
+                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/c1/66/73/azmak-nehri2-largejpg.jpg?w=500&h=400&s=1" alt="Akyaka" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Muğla</b></p>
+                            <p class="w3-opacity">10 Ağustos 2023</p>
+                            <p>Mekan Akyaka'dayız.</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Biletler için tıklayın</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="https://images.mnstatic.com/ca/7e/ca7e92b68d4a03688f8cc8bb06012e18.jpg" alt="Karga" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Kadıköy</b></p>
+                            <p class="w3-opacity">6 Ekim 2023</p>
+                            <p>Karga'yı canlandırmaya geliyoruz!</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Biletler için tıklayın</button>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="data:image/jpeg;base64,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" alt="Wall" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>Kadıköy</b></p>
+                            <p class="w3-opacity">Şubat 2024</p>
+                            <p>The wall</p>
+                            <button class="w3-button w3-black w3-margin-bottom"
+                                onclick="document.getElementById('ticketModal').style.display='block'">Biletler için tıklayın</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ticket Modal -->
+        <div id="ticketModal" class="w3-modal">
+            <div class="w3-modal-content w3-animate-top w3-card-4">
+                <header class="w3-container w3-teal w3-center w3-padding-32">
+                    <span onclick="document.getElementById('ticketModal').style.display='none'"
+                        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+                    <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+                </header>
+                <div class="w3-container">
+                    <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+                    <input class="w3-input w3-border" type="text" placeholder="How many?">
+                    <p><label><i class="fa fa-user"></i> Send To</label></p>
+                    <input class="w3-input w3-border" type="text" placeholder="Enter email">
+                    <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i
+                            class="fa fa-check"></i></button>
+                    <button class="w3-button w3-red w3-section"
+                        onclick="document.getElementById('ticketModal').style.display='none'">Close <i
+                            class="fa fa-remove"></i></button>
+                    <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Contact Section -->
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+            <h2 class="w3-wide w3-center">BİZE ULAŞIN</h2>
+            <p class="w3-opacity w3-center"><i>Gönder gelsin</i></p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-col m6 w3-large w3-margin-bottom">
+                    <a href="https://www.instagram.com/_bakhalar_/"><i class="fa fa-instagram w3-hover-opacity"></i>     _bakhalar_<br>
+                    <i class="fa fa-envelope" style="width:17px"></i> bakhalar@gmail.com<br>
+                </div>
+                <div class="w3-col m6">
+                    <form action="/action_page.php" target="_blank">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="İsminiz" required name="İsminiz">
+                            </div>
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Emailiniz" required name="Emailiniz">
+                            </div>
+                        </div>
+                        <input class="w3-input w3-border" type="text" placeholder="Mesajınız" required name="Mesajınız">
+                        <button class="w3-button w3-black w3-section w3-right" type="submit">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0Q2bWZinsdlzgzn1zgQNMg?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <!-- Image of location/map -->
+    <img src="./assets/94337813_1393503000851544_8548710085713787051_n.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+    </footer>
+
+    <script>
+        // Automatic Slideshow - change image every 4 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        var modal = document.getElementById('ticketModal');
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
